@@ -7,9 +7,7 @@ import java.awt.event.FocusEvent;
 import java.awt.event.FocusListener;
 
 public class Applet2 extends Applet {
-	/**
-	 * 
-	 */
+	
 	private static final long serialVersionUID = 1L;
 	Button b1,b2;
 	TextField t;
