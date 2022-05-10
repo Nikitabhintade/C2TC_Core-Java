@@ -32,8 +32,8 @@ public class Super {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		//test s=new test();
-				var e =new exam();
-				 test a =new test();
+				//var e =new exam();
+				 //test a =new test();
 				test.m1();
 				System.out.println(test.v);
 	}
