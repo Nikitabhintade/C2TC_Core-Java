@@ -11,12 +11,12 @@ public class StatementDemo {
 	public static void main(String[] args) throws Exception {
 		// TODO Auto-generated method stub
 		Class.forName("com.mysql.cj.jdbc.Driver");
-		//Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/b3tns","root","Mysql@01");
+		Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/b3tns","root","Mysql@01");
 		String url = "jdbc:mysql://localhost:3306/b3tns";
 		Properties p= new Properties();
 		p.put("user", "root");
 		p.put("password", "Mysql@01");
-		Connection con = DriverManager.getConnection(url, p);
+		//Connection con = DriverManager.getConnection(url, p);
 		Statement st = con.createStatement();
 		String query1 = "create table student( studentId int primary key, studentName varchar(20), studentMarks int)";
 		int i = st.executeUpdate(query1);
